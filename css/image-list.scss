@@ -1,0 +1,12 @@
+ul.c-image-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  &.centered { justify-content: center; }
+}
+
+
+li.c-image-list-item {
+  padding: 0rem $c-image-list-item-padding-x;
+  img { max-height: $c-image-list-item-max-height; }
+}

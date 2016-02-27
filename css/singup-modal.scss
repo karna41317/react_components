@@ -1,0 +1,20 @@
+.c-signup-modal {
+
+  .modal-header {
+    border: none;
+    background-color: $c-signup-modal-header-bg-color;
+    color: $c-signup-modal-header-text-color;    
+    padding: 1rem $c-signup-modal-padding-x;
+    button.close { color: $c-signup-modal-header-text-color; }
+  }
+
+  .modal-footer {
+    border: none;
+    padding: 0rem $c-signup-modal-padding-x 2rem;
+  }
+
+  .modal-body {
+    padding: 2rem $c-signup-modal-padding-x;
+  }
+
+}

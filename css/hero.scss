@@ -1,0 +1,7 @@
+.c-hero.jumbotron {
+  h1 { margin-bottom: 1.5rem; }
+  background-color: $c-hero-bg-color;
+  background-size: cover;
+  color: $c-hero-text-color;
+  margin-bottom: $c-section-padding-y/2;
+}

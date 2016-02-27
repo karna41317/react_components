@@ -1,0 +1,8 @@
+.c-page { 
+  
+  p {
+    margin-bottom: $c-page-paragraph-margin;
+    &:last-child { margin-bottom: 0; }
+  }
+  
+}

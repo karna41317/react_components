@@ -1,0 +1,27 @@
+.c-section { 
+  padding: $c-section-padding-y/2 0;
+  h2 { 
+    margin-bottom: $c-section-heading-margin-bottom;
+    padding-bottom: $c-section-heading-margin-bottom;
+    border-bottom: $c-section-border-bottom;
+    font-weight: 300;
+  }
+}
+
+.c-section.subhero {
+  background-color: $c-subhero-bg-color;
+  padding: $c-page-paragraph-margin/2 0;
+  margin-top: -$c-section-padding-y/2;
+}
+
+.c-section.nopad-bottom {
+  padding-bottom: 0;
+}
+
+.c-section.nopad-top {
+  padding-top: 0;
+}
+
+.c-section.gray {
+  background-color: $gray-uberlight;
+}

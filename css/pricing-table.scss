@@ -1,0 +1,54 @@
+.c-pricing-table {
+
+  .c-pricing-plan { 
+    border: 1px solid $c-pricing-plan-border-color;
+  }
+
+  .c-pricing-plan-name {
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: $c-pricing-plan-header-bg-color;
+    color: $c-pricing-plan-header-text-color;
+  }
+
+  .c-pricing-plan-price {
+    padding: 1rem;
+  }
+
+  .c-pricing-plan-price-amount {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  .c-pricing-plan-price-period {
+    display: inline-block;
+    font-weight: 300;
+  }
+
+  .c-pricing-plan-description { 
+    font-weight: 300;
+  }
+
+  p.c-pricing-plan-action { 
+    margin-bottom: 1rem;
+  }
+
+  .c-pricing-plan-features {
+    border-top: 1px solid $c-pricing-plan-border-color;
+    & > ul { margin: 0 }
+  }
+
+  .c-pricing-plan-feature {
+    font-size: 0.8rem;
+    &.isEnabled { color: $gray-dark; }
+    &.isDisabled { color: $gray-lighter; }
+    position: relative;
+    display: block;
+    padding: .5rem 0;
+    margin: 0;
+  }
+
+}

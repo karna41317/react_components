@@ -1,0 +1,12 @@
+.c-figure {
+  margin: $c-page-paragraph-margin 0;
+  border: $c-figure-border;
+  figcaption { 
+    background-color: $c-figure-caption-bg-color;
+    padding: 1rem;
+  }
+  img {
+    padding: $c-figure-img-padding;
+  }
+}
+

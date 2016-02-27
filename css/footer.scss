@@ -1,0 +1,25 @@
+// General
+footer.c-footer {
+  padding: $c-footer-padding-y 0;
+  margin-top: $c-footer-margin-top;
+  background-color: $c-footer-bg-color;
+  color: $c-footer-text-color;
+  font-size: 0.8rem;
+  a, a:hover, a:active, a:visited, a:link { color: $c-footer-link-color; text-decoration: none; }
+}
+
+// Social Icons
+.c-footer-social {
+  font-size: 1.5rem;
+}
+.c-footer-social-icon { 
+  i.fa-stack-2x { color: $c-footer-social-icon-bg-color; }
+  i.fa-stack-1x { color: $c-footer-social-icon-color; }
+}
+
+.twitter.c-footer-social-icon i.fa-stack-2x { color: #55acee; }
+.facebook.c-footer-social-icon i.fa-stack-2x { color: #3b5998; }
+.github.c-footer-social-icon i.fa-stack-2x { color: #000; }
+
+// Copyright
+.c-footer-copyright { }
