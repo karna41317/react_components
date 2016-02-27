@@ -12,7 +12,7 @@ export class ImageList extends React.Component {
   }
 
   render() {
-    const _className = classNames("c-image-list list-inline", { centered: this.props.centered });
+    const _className = classNames("neal-image-list list-inline", { centered: this.props.centered });
     return (
       <ul className={_className}>
         {this.props.children}
@@ -30,7 +30,7 @@ export class ImageListItem extends React.Component {
 
   render() {
     return (
-      <li className="c-image-list-item">
+      <li className="neal-image-list-item">
         <a href={this.props.url} target="_blank">
           <img src={this.props.src} />
         </a>

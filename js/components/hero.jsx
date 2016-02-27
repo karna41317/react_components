@@ -13,7 +13,7 @@ export class Hero extends React.Component {
     if (this.props.backgroundImage) {
       _style.backgroundImage = `url(${this.props.backgroundImage})`;
     }
-    const _className = classNames("c-hero jumbotron jumbotron-fluid", this.props.className);
+    const _className = classNames("neal-hero jumbotron jumbotron-fluid", this.props.className);
     return (
       <div {... this.props} className={_className} style={_style}>
         <Container>

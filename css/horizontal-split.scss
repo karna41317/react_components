@@ -1,25 +1,25 @@
-.c-horizontal-split-col {
-  margin-bottom: $c-page-paragraph-margin * 2;
+.neal-horizontal-split-col {
+  margin-bottom: $neal-page-paragraph-margin * 2;
 }
 
-.c-horizontal-split {
-  margin-bottom: -$c-page-paragraph-margin * 2;
+.neal-horizontal-split {
+  margin-bottom: -$neal-page-paragraph-margin * 2;
 }
 
-.c-horizontal-split-sm {
-  .c-horizontal-split-col {
-    padding-right: $c-horizontal-split-padding-x-sm * 2;
+.neal-horizontal-split-sm {
+  .neal-horizontal-split-col {
+    padding-right: $neal-horizontal-split-padding-x-sm * 2;
   }
 }
 
-.c-horizontal-split-md {
-  .c-horizontal-split-col {
-    padding-right: $c-horizontal-split-padding-x-md * 2;
+.neal-horizontal-split-md {
+  .neal-horizontal-split-col {
+    padding-right: $neal-horizontal-split-padding-x-md * 2;
   }
 }
 
-.c-horizontal-split-lg {
-  .c-horizontal-split-col {
-    padding-right: $c-horizontal-split-padding-x-lg * 2;
+.neal-horizontal-split-lg {
+  .neal-horizontal-split-col {
+    padding-right: $neal-horizontal-split-padding-x-lg * 2;
   }
 }

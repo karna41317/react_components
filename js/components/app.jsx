@@ -17,7 +17,7 @@ export class App extends React.Component {
     const history = this.props.history;
 
     return (
-      <div className="c-app">
+      <div className="neal-app">
         { this.props.children }
         { googleAnalyticsKey ? <GoogleAnalytics account={googleAnalyticsKey} history={history} /> : null }
         { segmentKey ? <Segment writeKey={segmentKey} history={history} /> : null }

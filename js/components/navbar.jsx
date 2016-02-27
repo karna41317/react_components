@@ -9,8 +9,8 @@ export class Navbar extends React.Component {
 
   render() {
     return (
-      <header className="c-navbar-wrapper">
-        <nav className="navbar navbar-static-top c-navbar">
+      <header className="neal-navbar-wrapper">
+        <nav className="navbar navbar-static-top neal-navbar">
           <div className="container">
             <button className="navbar-toggler hidden-md-up" type="button" data-toggle="collapse"
               data-target="#mobile-nav">
@@ -22,7 +22,7 @@ export class Navbar extends React.Component {
                 {this.props.children}
               </ul>
             </div>
-            <div className="collapse navbar-toggleable-sm hidden-md-up c-mobile-nav" id="mobile-nav">
+            <div className="collapse navbar-toggleable-sm hidden-md-up neal-mobile-nav" id="mobile-nav">
               <ul className="nav navbar-nav">
                 {this.props.children}
               </ul>

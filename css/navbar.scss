@@ -1,21 +1,21 @@
-.c-navbar-wrapper {
-  background-color: $c-navbar-bg-color;
+.neal-navbar-wrapper {
+  background-color: $neal-navbar-bg-color;
 }
 
-nav.c-navbar {
+nav.neal-navbar {
 
   @mixin nav-link {
     font-weight: 500;
     font-size: $font-size-sm;
     // text-transform: uppercase;
-    color: $c-navbar-link-color;
+    color: $neal-navbar-link-color;
     &:hover, &:active {
-      color: $c-header-link-color-hover;
+      color: $neal-header-link-color-hover;
     }
   }
 
   li.nav-item {
-    padding: 0 $c-navbar-item-padding-x;
+    padding: 0 $neal-navbar-item-padding-x;
     // Don't pad the last item on the right
     &:last-child { padding-right: 0; }
     &:first-child { padding-left: 0; }
@@ -28,13 +28,13 @@ nav.c-navbar {
 
   a.navbar-brand {
     font-weight: 900;
-    color: $c-navbar-brand-color;
+    color: $neal-navbar-brand-color;
   }
 
   .dropdown-menu {
     left: inherit;
     border: 1px solid $gray-lightest;
-    background-color: $c-navbar-bg-color;
+    background-color: $neal-navbar-bg-color;
     background-clip: inherit;
     padding: 0;
     a {
@@ -48,7 +48,7 @@ nav.c-navbar {
   }
 
 
-  .c-mobile-nav {
+  .neal-mobile-nav {
     margin: 0.5rem 0rem;
     li.nav-item, li.nav-item:first-child {
       float: none;

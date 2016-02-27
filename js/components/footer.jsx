@@ -15,11 +15,11 @@ export class Footer extends React.Component {
 
   render() {
     return (
-      <footer className="c-footer navbar">
+      <footer className="neal-footer navbar">
         <Container>
           <Row>
             <Col size={["xs-12", "md-4"]}>
-              <p className="c-footer-copyright">
+              <p className="neal-footer-copyright">
                 © {new Date().getFullYear()}, {this.props.brandName}
               </p>
               {this.props.address}
@@ -40,7 +40,7 @@ export class Footer extends React.Component {
 
   renderSocialIcons() {
     return (
-      <ul className="nav navbar-nav c-footer-social pull-right">
+      <ul className="nav navbar-nav neal-footer-social pull-right">
         { this.renderSocialIcon("fa-twitter", this.props.twitterUrl) }
         { this.renderSocialIcon("fa-facebook", this.props.facebookUrl) }
         { this.renderSocialIcon("fa-github", this.props.githubUrl) }
@@ -52,7 +52,7 @@ export class Footer extends React.Component {
   renderSocialIcon(iconClass, url) {
     if (!url || !iconClass ) { return null; }
     return (
-     <li className={`nav-item c-footer-social-icon ${iconClass.replace("fa-", "")}`}>
+     <li className={`nav-item neal-footer-social-icon ${iconClass.replace("fa-", "")}`}>
         <a href={url} target="_blank">
           <span className="fa-stack">
             <i className="fa fa-circle fa-stack-2x"></i>
@@ -68,7 +68,7 @@ export class FooterAddress extends React.Component {
 
   render() {
     return (
-      <div className="c-footer-address">
+      <div className="neal-footer-address">
         { this.props.children }
       </div>
     );

@@ -1,10 +1,10 @@
 {
-  "name": "c-react",
+  "name": "neal-react",
   "version": "0.2.3",
   "description": "react components for startup landing pages.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dennybritz/c-react.git"
+    "url": "git+https://github.com/dennybritz/neal-react.git"
   },
   "main": "build/app.js",
   "scripts": {
@@ -34,12 +34,12 @@
   },
   "gitHead": "1abc9c60307df547cddbfe5572051cb812e2517b",
   "bugs": {
-    "url": "https://github.com/dennybritz/c-react/issues"
+    "url": "https://github.com/dennybritz/neal-react/issues"
   },
-  "homepage": "https://github.com/dennybritz/c-react#readme",
-  "_id": "c-react@0.2.3",
+  "homepage": "https://github.com/dennybritz/neal-react#readme",
+  "_id": "neal-react@0.2.3",
   "_shasum": "e996a2428a05713c8bf255b6271f11382ce0573f",
-  "_from": "c-react@*",
+  "_from": "neal-react@>=0.2.3 <0.3.0",
   "_npmVersion": "3.3.12",
   "_nodeVersion": "5.2.0",
   "_npmUser": {
@@ -48,7 +48,7 @@
   },
   "dist": {
     "shasum": "e996a2428a05713c8bf255b6271f11382ce0573f",
-    "tarball": "http://registry.npmjs.org/c-react/-/c-react-0.2.3.tgz"
+    "tarball": "http://registry.npmjs.org/neal-react/-/neal-react-0.2.3.tgz"
   },
   "maintainers": [
     {
@@ -57,6 +57,6 @@
     }
   ],
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/c-react/-/c-react-0.2.3.tgz",
+  "_resolved": "https://registry.npmjs.org/neal-react/-/neal-react-0.2.3.tgz",
   "readme": "ERROR: No README data found!"
 }

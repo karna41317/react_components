@@ -1,24 +1,24 @@
-.c-customer-quotes {
+.neal-customer-quotes {
   .row { align-items: flex-end; }
 }
 
-.c-customer-quotes .c-customer-quote {
-  margin-bottom: $c-page-paragraph-margin;
+.neal-customer-quotes .neal-customer-quote {
+  margin-bottom: $neal-page-paragraph-margin;
 }
 
-.c-customer-quote-quote {
-  background-color: $c-customer-quotes-bg-color;
-  border: 2px solid $c-customer-quotes-border-color;
+.neal-customer-quote-quote {
+  background-color: $neal-customer-quotes-bg-color;
+  border: 2px solid $neal-customer-quotes-border-color;
   padding: 1rem;
   :last-child { margin-bottom: 0; }
   margin-bottom: 1rem;
   font-weight: 300;
 }
 
-.c-customer-quote-name { }
-.c-customer-quote-title { }
-img.c-customer-quote-img { 
+.neal-customer-quote-name { }
+.neal-customer-quote-title { }
+img.neal-customer-quote-img { 
   display: inline-block;
-  width: $c-customer-quotes-img-width;
+  width: $neal-customer-quotes-img-width;
   margin-right: 1rem;
 }

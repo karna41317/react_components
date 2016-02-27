@@ -1,4 +1,4 @@
-ul.c-image-list {
+ul.neal-image-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -6,7 +6,7 @@ ul.c-image-list {
 }
 
 
-li.c-image-list-item {
-  padding: 0rem $c-image-list-item-padding-x;
-  img { max-height: $c-image-list-item-max-height; }
+li.neal-image-list-item {
+  padding: 0rem $neal-image-list-item-padding-x;
+  img { max-height: $neal-image-list-item-max-height; }
 }
