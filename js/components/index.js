@@ -17,3 +17,4 @@ export * from "./vendor/segment";
 export * from "./vendor/stripe";
 export * from "./vendor/typeform";
 export * from "./vendor/google-analytics";
+export * from "./map";
